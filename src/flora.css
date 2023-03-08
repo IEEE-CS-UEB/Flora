@@ -71,6 +71,8 @@ li {
   float: left;
   vertical-align: center;
   padding: 20.5px 8px;
+  min-width: 70px;
+  text-align: center;
 }
 
 li:hover {
@@ -98,6 +100,19 @@ body {
 
 body > *:not(nav) {
   margin: 48px 48px;
+}
+
+/* -- Headings */
+
+h1 {
+  color: var(--theme-for1);
+  font-size: 3rem;
+  letter-spacing: -3px;
+}
+
+h3 {
+  font-weight: 300;
+  color: var(--theme-glo4);
 }
 
 /* -- Button */
