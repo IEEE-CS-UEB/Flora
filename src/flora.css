@@ -12,7 +12,7 @@ html {
 }
 
 /* Themes */
-html.aula-light {
+body.aula-light {
   --theme-back: #ffffff;
   --theme-fore: #2e2e2e;
   --theme-main: #7dbe4b;
@@ -23,7 +23,7 @@ html.aula-light {
   --theme-stroke: #e3e3e3;
 }
 
-html.ieee-light {
+body.ieee-light {
   --theme-back: #ffffff;
   --theme-for1: #2e2e2e;
   --theme-for2: #acdbf2;
@@ -36,7 +36,7 @@ html.ieee-light {
   --theme-stroke: #e3e3e3;
 }
 
-html.aula-dark {
+body.aula-dark {
   --theme-back: rgb(24, 26, 27);
   --theme-fore: #ffffff;
   --theme-main: rgb(82, 129, 47);
