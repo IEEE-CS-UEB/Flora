@@ -173,3 +173,7 @@ button.Primary:active {
   top: 100%;
   color: var(--theme-glo4);
 }
+
+.Img.Notext img {
+  visibility: hidden;
+}
