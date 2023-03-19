@@ -11,6 +11,12 @@ html {
   font-size: 15px;
 }
 
+/* TODO: Make for2 => for3, glo4 => for2, dim1 => main2 */
+/* TODO: 
+  Nav > .Left { echar pa la izquierda }
+  Nav > .Right { echar pa la derecha }
+*/
+
 /* Themes */
 body.aula-light {
   --theme-back: #ffffff;
@@ -159,6 +165,7 @@ button.Primary:active {
   position: relative;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Img span {
