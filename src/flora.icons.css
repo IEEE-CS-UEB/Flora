@@ -112,8 +112,6 @@ nav > ul > li.Icon:hover {
 }
 
 .Icon {
-  display: inline-block;
-  background-color: currentColor;
   -webkit-mask: no-repeat center / 100%;
   mask: no-repeat center / 100%;
   -webkit-mask-image: var(--svg);
@@ -214,11 +212,4 @@ button.Primary:active {
 
 .Img.Notext img {
   visibility: hidden;
-}
-
-.Icon {
-  -webkit-mask: no-repeat center / 100%;
-  mask: no-repeat center / 100%;
-  -webkit-mask-image: var(--svg);
-  mask-image: var(--svg);
 }
