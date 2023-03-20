@@ -101,6 +101,7 @@ nav > ul > li.Here {
 /* -- Icons (Iconify) */
 
 nav > ul > li.Icon {
+  background-color: var(--theme-for1);
   min-width: 14px;
   border: none;
   margin: 8px 10px;
@@ -137,7 +138,7 @@ nav > ul > li.Icon:hover {
 
 body {
   background-color: var(--theme-back);
-  color: var(--theme-fore);
+  color: var(--theme-for1);
 }
 
 body > *:not(nav) {
