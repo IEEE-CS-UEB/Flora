@@ -95,32 +95,6 @@ nav > ul > li.Here {
   border-bottom: 3px solid var(--theme-main);
 }
 
-/* -- Icons (Iconify) */
-
-nav > ul > li.Icon {
-  min-width: 14px;
-  border: none;
-  margin: 8px 10px;
-}
-
-nav > ul > li.Icon:hover {
-  background-color: var(--theme-glo4);
-  cursor: pointer;
-}
-
-/* -- -- In Nav */
-
-nav > ul > li.Icon {
-  min-width: 14px;
-  border: none;
-  margin: 8px 10px;
-}
-
-nav > ul > li.Icon:hover {
-  background-color: var(--theme-glo4);
-  cursor: pointer;
-}
-
 /* Elements */
 
 /* -- Body */
