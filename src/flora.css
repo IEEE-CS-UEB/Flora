@@ -66,13 +66,13 @@ nav {
   /* justify-content: space-between; */
 }
 
-ul {
+nav > ul {
   margin: 0;
   padding-left: 0;
   height: 61px;
 }
 
-li {
+nav > ul > li {
   list-style-type: none;
   float: left;
   vertical-align: center;
@@ -81,18 +81,53 @@ li {
   text-align: center;
 }
 
-li:hover {
+nav > ul > li:hover {
   background-color: var(--theme-glo3);
   cursor: pointer;
   border-bottom: 3px solid var(--theme-glo3);
 }
 
-li:not(:first-child) {
+nav > ul > li:not(:first-child) {
   padding: 20.5px 5px;
 }
 
-li.Here {
+nav > ul > li.Here {
   border-bottom: 3px solid var(--theme-main);
+}
+
+/* -- Icons (Iconify) */
+
+nav > ul > li.Icon {
+  min-width: 14px;
+  border: none;
+  margin: 8px 10px;
+}
+
+nav > ul > li.Icon:hover {
+  background-color: var(--theme-glo4);
+  cursor: pointer;
+}
+
+.Icon {
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask: no-repeat center / 100%;
+  mask: no-repeat center / 100%;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+}
+
+/* -- -- In Nav */
+
+nav > ul > li.Icon {
+  min-width: 14px;
+  border: none;
+  margin: 8px 10px;
+}
+
+nav > ul > li.Icon:hover {
+  background-color: var(--theme-glo4);
+  cursor: pointer;
 }
 
 /* Elements */
@@ -176,4 +211,11 @@ button.Primary:active {
 
 .Img.Notext img {
   visibility: hidden;
+}
+
+.Icon {
+  -webkit-mask: no-repeat center / 100%;
+  mask: no-repeat center / 100%;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
 }
