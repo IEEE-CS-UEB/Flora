@@ -212,10 +212,3 @@ button.Primary:active {
 .Img.Notext img {
   visibility: hidden;
 }
-
-.Icon {
-  -webkit-mask: no-repeat center / 100%;
-  mask: no-repeat center / 100%;
-  -webkit-mask-image: var(--svg);
-  mask-image: var(--svg);
-}
