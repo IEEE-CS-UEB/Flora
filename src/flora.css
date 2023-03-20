@@ -95,6 +95,25 @@ nav > ul > li.Here {
   border-bottom: 3px solid var(--theme-main);
 }
 
+/* -- Image */
+
+.Img {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Img img {
+  position: absolute;
+  top: 100%;
+  color: var(--theme-glo4);
+}
+
+.Img.Notext img {
+  visibility: hidden;
+}
+
 /* Elements */
 
 /* -- Body */
@@ -159,21 +178,10 @@ button.Primary:active {
   filter: brightness(110%);
 }
 
-/* -- Image */
+/* Layout */
 
-.Img {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.Img img {
-  position: absolute;
-  top: 100%;
-  color: var(--theme-glo4);
-}
-
-.Img.Notext img {
-  visibility: hidden;
+.Container {
+  border: 1px solid var(--theme-stroke);
+  border-radius: 5px;
+  padding: 20px;
 }
