@@ -117,6 +117,14 @@ nav > ul > li.Here {
   visibility: hidden;
 }
 
+/* -- Badge */
+
+.Badge {
+  border-radius: 4px;
+  padding: 7px 10px;
+  color: white;
+  font-size: 0.9rem
+}
 
 /* -- Icon (Iconify) */
 

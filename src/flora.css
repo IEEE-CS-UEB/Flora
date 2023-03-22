@@ -33,6 +33,7 @@ body.ieee-light {
   --theme-back: #ffffff;
   --theme-for1: #2e2e2e;
   --theme-for2: #acdbf2;
+  --theme-back1: #f3f3f3;
   --theme-main: #006699;
   --theme-dim1: #006699;
   --theme-glo1: #78bde0;
@@ -95,7 +96,7 @@ nav > ul > li.Here {
   border-bottom: 3px solid var(--theme-main);
 }
 
-/* -- Image */
+/* -- Focused Image */
 
 .Img {
   position: relative;
@@ -112,6 +113,15 @@ nav > ul > li.Here {
 
 .Img.Notext img {
   visibility: hidden;
+}
+
+/* -- Badge */
+
+.Badge {
+  border-radius: 4px;
+  padding: 7px 10px;
+  color: white;
+  font-size: 0.9rem
 }
 
 /* Elements */
