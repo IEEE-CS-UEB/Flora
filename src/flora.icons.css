@@ -98,6 +98,66 @@ nav > ul > li.Here {
   border-bottom: 3px solid var(--theme-main);
 }
 
+/* -- Nav Dropdown */
+
+.Dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dropdown > .Options {
+  position: absolute;
+  background-color: var(--theme-back);
+  z-index: 1;
+  padding: 0 !important;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: column;
+  filter: drop-shadow(0 3px 3px rgb(0 0 0 / 0.1));
+  overflow: clip;
+}
+
+.Dropdown > .Options > option:not(:nth-child(3n+4)) {
+  border-top: 1px solid var(--theme-stroke);
+}
+
+.Dropdown > .Options > option:first-child {
+  border-top: none;
+}
+
+.Dropdown > .Options > option {
+  padding: 20% 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  background-color: white;
+}
+
+.Dropdown > .Options > option:hover {
+  background-color: var(--theme-glo3);
+}
+
+/* -- In Nav */
+
+nav .Dropdown {
+  padding: 0;
+}
+
+nav .Dropdown > *:nth-child(1):not(iconify-icon) {
+  padding: 0 8px;
+}
+
+nav .Dropdown > iconify-icon:nth-child(1) {
+  padding: 0 7px;
+}
+
 /* -- Focused Image */
 
 .Img {
