@@ -241,3 +241,7 @@ button.Primary:active {
   border-radius: 5px;
   padding: 20px;
 }
+
+.Hidden {
+  display: none;
+}
