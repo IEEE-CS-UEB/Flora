@@ -133,15 +133,15 @@ nav > ul > li.Here {
   overflow: clip;
 }
 
-.Dropdown > .Options > option:not(:nth-child(3n+4)) {
+.Dropdown > .Options option:not(:nth-child(3n+4)) {
   border-top: 1px solid var(--theme-stroke);
 }
 
-.Dropdown > .Options > option:first-child {
+.Dropdown > .Options option:first-child {
   border-top: none;
 }
 
-.Dropdown > .Options > option {
+.Dropdown > .Options option {
   padding: 20% 30px;
   display: flex;
   justify-content: center;
@@ -150,7 +150,7 @@ nav > ul > li.Here {
   background-color: white;
 }
 
-.Dropdown > .Options > option:hover {
+.Dropdown > .Options option:hover {
   background-color: var(--theme-glo3);
 }
 
