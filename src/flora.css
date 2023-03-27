@@ -54,6 +54,18 @@ body.aula-dark {
   --theme-stroke: rgb(56, 61, 63);
 }
 
+/* Layout */
+
+.Container {
+  border: 1px solid var(--theme-stroke);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.Hidden {
+  display: none;
+}
+
 /* Components */
 
 /* -- Nav */
@@ -232,16 +244,4 @@ button.Primary:focus {
 button.Primary:active {
   transition: all 60ms ease-out;
   filter: brightness(110%);
-}
-
-/* Layout */
-
-.Container {
-  border: 1px solid var(--theme-stroke);
-  border-radius: 5px;
-  padding: 20px;
-}
-
-.Hidden {
-  display: none;
 }
