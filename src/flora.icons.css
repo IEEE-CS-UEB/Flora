@@ -9,9 +9,10 @@
 
 /* HTML & REM adjustments */
 html {
-  font-family: 'Inter';
-  font-weight: 200;
+  color: var(--theme-for1);
+  font-weight: 300;
   font-size: 15px;
+  font-family: 'Inter';
 }
 
 /* TODO: Make for2 => for3, glo4 => for2, dim1 => main2 */
