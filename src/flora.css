@@ -271,3 +271,76 @@ button.Primary:active {
   transition: all 60ms ease-out;
   filter: brightness(110%);
 }
+
+button.Secondary {
+  border: 1px solid var(--theme-main);
+  font-weight: 300;
+  border-radius: 9.6px;
+  background-color: transparent;
+  color: var(--theme-main);
+  margin: 3px;
+}
+
+button.Secondary:hover {
+  cursor: pointer;
+  background-color: var(--theme-glo5);
+}
+
+button.Secondary:active {
+  transition: all 60ms ease-out;
+  opacity: 50%;
+}
+
+button.Secondary:focus {
+  box-shadow: 0 0 0 3px var(--theme-glo5);
+}
+
+button.Tertiary {
+  font-family: 'Inter';
+  font-weight: 300;
+  border: none;
+  border-radius: 9.6px;
+  background-color: transparent;
+  color: var(--theme-main);
+  margin: 3px;
+}
+
+button.Tertiary:hover {
+  cursor: pointer;
+  background-color: var(--theme-glo5);
+}
+
+button.Tertiary:not(:hover):focus {
+  box-shadow: 0 0 0 1px var(--theme-glo5);
+}
+
+button.Tertiary:active {
+  transition: all 60ms ease-out;
+  opacity: 50%;
+}
+
+button.Tertiary.Simpler {
+  font-family: 'Inter';
+  font-weight: 300;
+  border: none;
+  border-radius: 9.6px;
+  background-color: transparent;
+  color: var(--theme-main);
+  margin: 3px;
+}
+
+button.Tertiary.Simpler:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  box-shadow: 0 0 0 0px transparent;
+}
+
+button.Tertiary.Simpler:focus {
+  text-decoration: underline;
+  box-shadow: 0 0 0 0px transparent;
+}
+
+button.Tertiary.Simpler:active {
+  transition: all 60ms ease-out;
+  opacity: 50%;
+}
