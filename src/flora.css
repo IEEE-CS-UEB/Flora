@@ -344,3 +344,27 @@ button.Tertiary.Simpler:active {
   transition: all 60ms ease-out;
   opacity: 50%;
 }
+
+/* -- Forms */
+
+/* -- -- Input */
+
+input {
+  border-radius: 8px;
+  border: 1px solid var(--theme-stroke2);
+  background: transparent;
+  color: var(--theme-stroke2);
+  outline: none;
+  padding: 10px;
+}
+
+/* -- -- Select */
+  
+select {
+  border-radius: 8px;
+  border: 1px solid var(--theme-stroke2);
+  background: transparent;
+  color: var(--theme-stroke2);
+  outline: none;
+  padding: 10px;
+}
