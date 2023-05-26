@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600;800&display=swap');
 
 /* HTML & REM adjustments */
-html {
+body {
   color: var(--theme-for1);
   font-weight: 300;
   font-size: 15px;
@@ -41,7 +41,25 @@ body.ieee-light {
   --theme-glo2: #ffffff;
   --theme-glo3: #f8f9fa;
   --theme-glo4: #454f5b;
+  --theme-glo5: #ACDBF2;
   --theme-stroke: #e3e3e3;
+  --theme-stroke2: #6A737B;
+}
+
+body.ieee-dark {
+  --theme-back: #151f24;
+  --theme-for1: #2e2e2e;
+  --theme-for2: #acdbf2;
+  --theme-back1: #f3f3f3;
+  --theme-main: #006699;
+  --theme-dim1: #006699;
+  --theme-glo1: #78bde0;
+  --theme-glo2: #151f24;
+  --theme-glo3: #f8f9fa;
+  --theme-glo4: #454f5b;
+  --theme-glo5: #ACDBF2;
+  --theme-stroke: #e3e3e3;
+  --theme-stroke2: #6A737B;
 }
 
 body.aula-dark {
