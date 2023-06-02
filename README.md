@@ -2,7 +2,7 @@
 
 Flora es una librería de Estilos (CSS) y Componentes (Web Components) para construir aplicaciones para la comunidad universitaria de la UEB con un diseño de UI sencillo pero atractivo, igual al de Aula Virtual.
 
-Lo único que necesitas para empezar a hacer uso de Flora es importar el estilo o el componente que quieras en el <head> de tu HTML. Eso es todo.
+Lo único que necesitas para empezar a hacer uso de Flora es importar el estilo o el componente que quieras en el `<head>` de tu HTML. Eso es todo.
 
 # Hojas de estilos
 
