@@ -1,18 +1,18 @@
 /* Normalize.css */
-@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 
 /* Phosphor Icons (Iconify API) */
-@import url('./ph-icons.css');
+@import url("./ph-icons.css");
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap");
 
 /* HTML & REM adjustments */
 body {
   color: var(--theme-for1);
   font-weight: 300;
   font-size: 15px;
-  font-family: 'Inter';
+  font-family: "Inter";
 }
 
 /* TODO: Make for2 => for3, glo4 => for2, dim1 => main2 */
@@ -24,7 +24,7 @@ body {
 /* Themes */
 body.aula-light {
   --theme-back: #ffffff;
-  --theme-fore: #2e2e2e;
+  --theme-for1: #2e2e2e;
   --theme-main: #7dbe4b;
   --theme-dim1: #6aa73c;
   --theme-glo1: #b7d2a2;
@@ -44,14 +44,14 @@ body.ieee-light {
   --theme-glo2: #ffffff;
   --theme-glo3: #f8f9fa;
   --theme-glo4: #454f5b;
-  --theme-glo5: #ACDBF2;
+  --theme-glo5: #acdbf2;
   --theme-stroke: #e3e3e3;
-  --theme-stroke2: #6A737B;
+  --theme-stroke2: #6a737b;
 }
 
 body.ieee-dark {
   --theme-back: #151f24;
-  --theme-for1: #2e2e2e;
+  --theme-for1: #f3f3f3;
   --theme-for2: #acdbf2;
   --theme-back1: #f3f3f3;
   --theme-main: #006699;
@@ -60,14 +60,14 @@ body.ieee-dark {
   --theme-glo2: #151f24;
   --theme-glo3: #f8f9fa;
   --theme-glo4: #454f5b;
-  --theme-glo5: #ACDBF2;
+  --theme-glo5: #acdbf2;
   --theme-stroke: #e3e3e3;
-  --theme-stroke2: #6A737B;
+  --theme-stroke2: #6a737b;
 }
 
 body.aula-dark {
   --theme-back: rgb(24, 26, 27);
-  --theme-fore: #ffffff;
+  --theme-for1: #ffffff;
   --theme-main: rgb(82, 129, 47);
   --theme-dim1: #6aa73c;
   --theme-glo1: #b7d2a2;
@@ -155,7 +155,7 @@ nav > ul > li.Here {
   overflow: clip;
 }
 
-.Dropdown > .Options option:not(:nth-child(3n+4)) {
+.Dropdown > .Options option:not(:nth-child(3n + 4)) {
   border-top: 1px solid var(--theme-stroke);
 }
 
@@ -180,7 +180,6 @@ nav > ul > li.Here {
 
 .Img {
   position: relative;
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -201,7 +200,7 @@ nav > ul > li.Here {
   border-radius: 4px;
   padding: 7px 10px;
   color: white;
-  font-size: 0.9rem
+  font-size: 0.9rem;
 }
 
 /* -- Icon (Iconify) */
@@ -237,13 +236,14 @@ nav > ul > li.Icon:hover {
   background-color: var(--theme-glo4);
   cursor: pointer;
 }
+
 /* Elements */
 
 /* -- Body */
 
 body {
   background-color: var(--theme-back);
-  color: var(--theme-fore);
+  color: var(--theme-for1);
 }
 
 body > *:not(nav) {
@@ -283,7 +283,7 @@ button.Big {
 }
 
 button.Primary {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 300;
   border: none;
   border-radius: 9.6px;
@@ -296,7 +296,6 @@ button.Primary:hover {
   cursor: pointer;
   background-color: var(--theme-dim1);
   color: var(--theme-glo2);
-  
 }
 
 button.Primary:focus {
@@ -332,7 +331,7 @@ button.Secondary:focus {
 }
 
 button.Tertiary {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 300;
   border: none;
   border-radius: 9.6px;
@@ -356,7 +355,7 @@ button.Tertiary:active {
 }
 
 button.Tertiary.Simpler {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 300;
   border: none;
   border-radius: 9.6px;
@@ -395,7 +394,7 @@ input {
 }
 
 /* -- -- Select */
-  
+
 select {
   border-radius: 8px;
   border: 1px solid var(--theme-stroke2);
